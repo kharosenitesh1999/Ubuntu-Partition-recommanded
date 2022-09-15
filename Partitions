@@ -1,0 +1,36 @@
+#                     Ubuntu Partitions 
+  ************************************************************************
+1------> 
+                      use as :   EFI Partition
+                        size :   100 (100 MB)
+     type  for the partition : primary
+    Location for the partion : Beginnign of this space 
+    *************************************************************************
+  
+   2--------->
+                      use as :   ext4 file System
+                        size :   20,480   (20 GB)
+     type  for the partition : primary
+    Location for the partion : Beginnign of this space 
+                  Mount Point: / (root)
+   *************************************************************************
+
+ 3--------->
+                      use as :   ext4 file System
+                        size :   30,720  (30 GB)
+     type  for the partition : primary
+    Location for the partion : Beginnign of this space 
+                  Mount Point: /home (disk space for your use )
+                  
+     *************************************************************************
+
+   4--------->
+                      use as :   Swap Area
+                        size :   4,096 (4 GB)
+     type  for the partition : primary
+    Location for the partion : Beginnign of this space 
+                  
+                  
+  *************************************************************************
+  next step click on install Now  Button  then  Continue.................
+    
